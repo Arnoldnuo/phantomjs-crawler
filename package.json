@@ -1,0 +1,19 @@
+{
+  "name": "phantomjs-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/crawler.js",
+  "scripts": {
+    "tests": "./node_modules/mocha/bin/mocha --reporter spec --bail --timeout 20000 tests/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "phantom": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
