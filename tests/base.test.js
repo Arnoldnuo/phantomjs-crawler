@@ -11,11 +11,11 @@ describe('phantom crawler', function() {
                 console.log(option);
             }
         });
-        await c.ready();
         await c.queue(baseUri);
+        await c.ready();
         c.on('drain', async(a) => {
             await c.queue('http://www.baidu.com');
-            console.log('drain');
+            // console.log('drain');
         });
     });
 });
