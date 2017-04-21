@@ -1,10 +1,10 @@
 {
   "name": "phantomjs-crawler",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/crawler.js",
   "scripts": {
-    "tests": "./node_modules/mocha/bin/mocha --reporter spec --bail --timeout 20000 tests/*.js"
+    "tests": "./node_modules/mocha/bin/mocha --reporter spec --bail --timeout 200000 tests/*.js"
   },
   "author": "",
   "license": "ISC",
